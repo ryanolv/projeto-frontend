@@ -1,0 +1,11 @@
+body {
+    background: linear-gradient(to bottom,#222, #555) ;
+    
+    color: aliceblue;
+}
+
+.titulo {
+    font-size: 30px;
+    color: aquamarine;
+    
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresso 1</title>
+    <link rel="stylesheet" href="../css/ingressos.css">
+</head>
+<body>
+    <div class="menu-principal">
+    <div>
+        <h1>Individual - Arena</h1>
+    </div><br>
+    
+    <div>
+        <nav>
+            <p><strong>Arena Individual</strong><br>
+                <strong>Valor:</strong> <kbd>R$ 120</kbd>
+            </p>
+            <p>O ingresso consiste em uma entrada para uma pessoa <br>
+               na parte alta do estádio.</p>
+            <div>
+                <p>O ingresso tem direito a:</p>
+               <ul>
+                    <li>Um acento na parte alta do estagio</li>
+                    <li>Uma vale para uma bebida</li>
+                    <li>Um vale para pipoca</li>
+                    <li>Pulseira de identificação</li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <form method="post" action="../index.js">
+        <div class="esquerda">
+            <p>Insira seus dados par efetuar sua compra:</p>
+            <input type="text" name="nome" placeholder="Digite seu nome completo"><br>
+            <input type="email" name="email" id="1" placeholder="Digite seu email"><br>
+            <input type="tel" name="cel" id="2" placeholder="Digite seu número">
+            <p>Data de nascimento: <input type="date" name="nascimento" id="3"></p>
+        </div>
+
+        <div class="direita">
+            <p>Insira o comprovante de vascinação: <input type="file" name="vacinacao" id="4"></p>
+            <p>Insira a quantidade de ingressos:
+                <select name="qtd_ingressos" id="5">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </p>
+        </div>
+        <input type="button" value="enviar">
+
+    </form>
+    <footer>
+        <p>Obseração: É permitido apenas cinco ingressos por compra. <br>
+                      A compra é feita apenas por boleto bancário, que será enviado para o e-mail cadastrado.
+        </p>
+    </footer>
+</div>
+    <script>
+        // ...
+    </script>
+</body>
+</html>
